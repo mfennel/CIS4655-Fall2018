@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Project Website - Home</title>
+</head>
+
+  <body>
+
+    <div class="container">
+        <ul class="nav nav-pills nav-fill" role="tablist">
+          <li><a href="http://sotd.us/matthewfennel/CIS4655-Fall2018/module06/project/home.html">Home</a></li>
+          <li><a href="http://sotd.us/matthewfennel/CIS4655-Fall2018/module06/project/services.html">Services</a></li>
+          <li><a href="http://sotd.us/matthewfennel/CIS4655-Fall2018/module06/project/contact.html">Contact Us</a></li>
+          <li><a href="http://sotd.us/matthewfennel/CIS4655-Fall2018/module06/project/mod4.html">Module 04 Project</a></li>
+          <li class="active"><a href="http://sotd.us/matthewfennel/CIS4655-Fall2018/module06/project/mod6.html">Module 06 Project</a></li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <div class="alert alert-info alert-dismissible">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Attention!</strong> Your registration is important to us.
+        </div>
+
+    <h1>Please enter your information</h1>
+    <form>
+      <div class="row">
+        <div class="col-md-12 mb-6">
+          <label for="firstname">First Name</label>
+          <input type="text" class="form-control" id="firstname" placeholder="First name" required>
+        </div>
+        <div class="col-md-12 mb-6">
+          <label for="lastname">Last Name</label>
+          <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+        </div>
+        <div class=col-md-12 mb-6">
+          <label for="username">User Name</label>
+          <input type="text" class="form-control" id="username" placeholder="User Name" required>
+        </div>
+        <div class=col-md-12 mb-6">
+          <label for="password"">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password" required>
+        </div>
+
+      </div>
+
+        <div class="form-group">
+            <label for="comment">Additional Information:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+
+            <h3>Acceptable methods of communication</h3>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Email</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Telephone</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Text Messages</label>
+            </div>
+
+            <h3>Purpose of Joining</h3>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Business</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Personal</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Education</label>
+            </div>
+
+            <h3>Favorite Sport</h3>
+            <div class="form-group">
+              <label for="select1">Select list:</label>
+              <select class="form-control" id="select1">
+                <option>Football</option>
+                <option>Baseball</option>
+                <option>Basketball</option>
+                <option>Hockey</option>
+                <option>Soccer</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2018 Matthew Fennel</p>
+      </footer>
+  </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
